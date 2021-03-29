@@ -1,0 +1,28 @@
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.form{
+ display: flex;
+ flex-direction: column;
+ margin-left: auto;
+ margin-right: auto;
+ width: 400px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.input{
+    outline: none;
+    padding: 4px
+}
+
+.button{
+    padding: 5px;
+    cursor: pointer;
+}

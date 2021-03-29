@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    background-color: rgb(125, 128, 170);
+}
+
+
+.link{
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(28, 29, 37);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.activeLink{
+    composes: link;
+    color: white;
+}
